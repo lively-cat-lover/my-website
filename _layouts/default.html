@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+{% include header.html %}
+
+<div class="container-fluid">
+        {{ content }}
+        <a class="btn btn-lg btn-success" href="#"> Hello <span class="glyphicon glyphicon-hand-left"></span></a>
+        <br>
+        {% include post_container.html %}
+</div>
+
+
+{% include footer.html %}
+
+
+</body>
+</html>

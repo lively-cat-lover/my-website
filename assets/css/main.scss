@@ -1,0 +1,34 @@
+---
+---
+
+@import "bootstrap";
+
+h1{
+	color: blue; 
+}
+
+.container-fluid{
+	padding-bottom: 20px;
+}
+.navbar-default{
+	background-color:#1B2631;
+	color:white;
+}
+
+.navbar-default .navbar-brand{
+	color:lightgrey;
+}
+
+
+.panel-default .panel-body{
+	background-color: #1B2631;
+	color: lightgrey;
+}
+
+.panel-default a{
+	color:lightgrey;
+}
+
+.row .card{
+	padding: 4px;
+}
